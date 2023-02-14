@@ -1,0 +1,4 @@
+variables : A B F G X Y
+constants : + − [ ]
+start : A
+rules : A → B−[F]-G−A−B, B → [F]+G+A+B+A, F → F−G+F+G−A, G → GG, X → Y−[-X]-Y, Y → [F]+Y+X
